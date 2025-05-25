@@ -7,7 +7,7 @@ mcp = FastMCP(
 )
 
 @mcp.tool()
-def count_occurence(word: str, letter: str) -> int:
+def count_occurence(word: str, letter) -> int:
     """
     Counts the number of occurrences of a given letter in a word.
     """
